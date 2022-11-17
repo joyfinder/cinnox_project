@@ -53,5 +53,5 @@ func main() {
 	fmt.Println("Step 1. Performing the configuration of LINE & MongoDB")
 	Perform_go_line_sdk()
 	fmt.Println("Step 2. Connecting to MongoDB & Creating DTO to save/query message to MongoDB.")
-
+	Perform_DTO_MongoDB()
 }
