@@ -14,7 +14,6 @@ func Perform_go_line_sdk() {
 	// 2. Completed Creating a test line dev official account
 	// Filling out both channel secret & channel access token below
 	client := &http.Client{}
-	bot, err := linebot.New("2f032806419513eb0919cf7f432d91b5", "4FQthc8gzKOXiGdUJsEs5BZKU1j4zIf4e9Dy5X4+FkjvszwOVRiyi87wfWS+bV7+V7rmLZlljxdxwgX8/YVFI9L8Z9woC19FQUwOxzOUC18kd2o+WG8Eqf7jnlWFJ7DizOfmSNy1m5aI6Mpbl28C1gdB04t89/1O/w1cDnyilFU=", linebot.WithHTTPClient(client))
 	if err != nil {
 		log.Fatal(err)
 	}
